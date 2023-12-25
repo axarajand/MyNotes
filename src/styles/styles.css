@@ -1,0 +1,155 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:"Inter",arial,sans-serif;
+}
+body{
+  background-image: url('./../../public/background.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color:#000000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #ffc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+.navbar h1 {
+  flex: 3;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-size: 200%;;
+}
+.navbar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+}
+.notes-title {
+  padding-left: 1em;
+  font-size: 125%;
+  margin-top: 25px;
+}
+.notes-title {
+  padding-left: 1em;
+  font-size: 125%;
+  margin-top: 25px;
+}
+.notes-title{
+  padding-left:1em;
+  font-size:125%;
+  margin-top: 25px;
+}
+.notes-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.notes-item{
+  flex: auto;
+  display: flex;
+}
+.notes-item__body{
+  flex-grow: 1;
+  color: #000;
+  display: block;
+  padding: 1em;
+  margin: 1em;
+  background: #ffc;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  width: 20em;
+  height: auto;
+}
+.notes-item__created{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 0.8em;
+}
+.notes-item__body h3,p{
+  font-size:100%;
+}
+.notes-item__body h3{
+  font-size:125%;
+  font-weight: bold;
+}
+.notes-item__footer{
+  display: flex;
+  flex-direction: row;
+  font-weight:bold;
+}
+.notes-item__button{
+  text-decoration:none;
+  color:#000;
+  flex: 1;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 10px;
+  padding: 10px;
+}
+#hapus{
+  cursor: pointer;
+  color: rgb(184, 0, 0);
+}
+#arsip{
+  cursor: pointer;
+  color: rgb(28, 0, 167);
+}
+.notes-add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notes-add h2 {
+  text-align: center;
+  font-size: 200%;
+}
+.notes-input .character-limit{
+  align-self: flex-end;
+}
+.notes-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed black;
+  padding: 25px;
+  margin: 14px 0;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  width: 30%;
+  background: #ffc;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+}
+.notes-input input, textarea {
+  flex: auto;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 100%;
+}
+
+.notes-input button {
+  width: 100%;
+  padding: 8px;
+  margin: 8px;
+  color: #000;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+.notes-null {
+  font-weight: bold;
+  font-size: 100%;
+  text-align: center;
+  margin: 25px;
+}
